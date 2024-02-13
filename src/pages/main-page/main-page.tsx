@@ -1,19 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import {
-    MenuFoldOutlined,
-    MenuUnfoldOutlined,
-    TrophyOutlined,
-    CalendarOutlined,
-    HeartOutlined,
-    IdcardOutlined,
-    CalendarFilled,
     CalendarTwoTone,
     HeartFilled,
     TrophyFilled,
-    IdcardTwoTone,
-    IdcardFilled
 } from '@ant-design/icons';
-import { Button, Layout, Menu, Space } from 'antd';
+import { Layout, Menu } from 'antd';
 import './main-page.css';
 import backgroungImage from '../../../public/background.png'
 import Header from '@components/header/Header';
