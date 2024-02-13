@@ -1,0 +1,38 @@
+.header[class*='ant-page-header'] {
+    padding: 16px 24px;
+    background-color: #F0F5FF;
+}
+
+.header > div[class*='ant-page-header-content'] {
+    padding-top: 0;
+}
+
+.headerTitle[class*='ant-typography'] {
+    margin: 0;
+    padding: 6px 0;
+    line-height: 130%;
+    letter-spacing: 1.57px;
+}
+
+.headerTitleContainer {
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 834px) {
+    .headerTitle[class*='ant-typography'] {
+        letter-spacing: 0.69px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 833.98px) {
+    .headerTitle[class*='ant-typography'] {
+        letter-spacing: 0.43px;
+        font-size: 20px;
+    }
+
+    .headerTitleContainer {
+        margin-top: -5px;
+    }
+}

@@ -1,0 +1,53 @@
+.footer {
+    margin: 0 24px 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cardContainer {
+    width: 240px;
+}
+
+.cardContainer > div[class*='ant-card-body'] {
+    padding: 12px 24px;
+}
+
+.cardContainer > ul[class*='ant-card-actions'] > li {
+    border: none;
+}
+
+
+.metaTitle div[class*='ant-card-meta-title'] {
+    font-weight: 400;
+}
+
+.metaTitle div[class*='ant-card-meta-title'] > span {
+    color: #2F54EB;
+    letter-spacing: 0.3px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 833.98px) {
+    .footer {
+        margin: 0 16px 36px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .cardContainer {
+        width: 100%;
+    }
+
+    .metaTitle div[class*='ant-card-meta-title'] {
+        text-align: center;
+    }
+
+    .metaTitle div[class*='ant-card-meta-description'] {
+        text-align: center;
+    }
+
+    .reviewsButton {
+        margin-top: 24px;
+    }
+}
