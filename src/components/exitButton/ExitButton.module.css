@@ -1,0 +1,55 @@
+.exitButtonContainer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.divider[class*='ant'] {
+    margin: 0;
+}
+
+.exitButton {
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    transition: all .3s;
+}
+
+.exitButton:hover {
+    background-color: #fafafa;
+}
+
+.exitIcon {
+    width: 16px;
+    margin-right: 25px;
+}
+
+.open {
+    opacity: 0;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 360px) and (max-width: 833.98px) {
+    .exitIcon {
+        display: none;
+    }
+
+    .open {
+        opacity: 0;
+        overflow: hidden;
+    }
+
+    .exitButton > span{
+        padding: 7px 16px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        transition: all .3s;
+    }
+}
